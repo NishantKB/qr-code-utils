@@ -10,4 +10,3 @@ function generateQRCode() {
       qrcodeImg.style.display = 'block'; 
     });
   }
-  

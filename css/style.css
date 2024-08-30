@@ -4,8 +4,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
-#qrcode {
+.container .header {
+    text-align: center;
+}
+
+.container .header h1 {
+    margin: 0;
+    margin-bottom: 0.2em;
+}
+
+.section {
+    padding: 20px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    margin-bottom: 0.2em;
+    text-align: center;
+}
+
+.section .text-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.section .generate-button {
+    margin-top: 5px;
+    padding: 10px 15px;
+    border: 1px solid #000;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.section .qrcode {
+    display: block;
+    margin: 20px auto 0;
+    max-width: 100%;
     display: none; 
-  }
-  
+
+}
