@@ -9,20 +9,23 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="manifest" href="images/site.webmanifest">
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+
 </head>
 <body>
-    <h1>Hello World!</h1>
-    
-
- 
-    
- 
-    
-
-
-
-
-
-    <script src="javascript/main.js/"></script>
+    <div class="container">
+        <div class="header">
+            <h1>QR Code Generator and Scanner</h1>
+        </div>
+        <!-- QR Code Generator -->
+        <div class="section">
+            <h2>Generate QR Code</h2>
+            <input type="text" class="text-input" id="text-input" placeholder="Enter text here">
+            <button class="generate-button" onclick="generateQRCode()">Generate QR Code</button>
+            <img class="qrcode" id="qrcode" alt="QR Code"/>
+        </div>
+    </div>
+       
+    <script src="javascript/main.js"></script>
 </body>
 </html>
