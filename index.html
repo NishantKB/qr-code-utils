@@ -10,6 +10,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="manifest" href="images/site.webmanifest">
     <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script>
 
 </head>
 <body>
@@ -26,7 +27,14 @@
             </form>
             <img class="qrcode" id="qrcode" alt="QR Code"/>
         </div>
-        
+        <!-- Drag and Drop Section -->
+        <div class="section">
+            <h2>Drag and Drop QR Code</h2>
+            <div id="dropzone">Drop an image here or click to select from your folder</div>
+            <input type="file" id="file-input" accept="image/*" />
+            <canvas id="qr-canvas"></canvas>
+            <div id="result">Drop an image or click to select a file to scan the QR code.</div>
+        </div>
     </div>
        
     <script src="javascript/main.js"></script>
