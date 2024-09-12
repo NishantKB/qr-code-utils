@@ -19,6 +19,7 @@ body {
 .container {
     text-align: center;
     padding: 20px;
+    padding-bottom: 60px;
 }
 
 .container header h1 {
@@ -116,4 +117,16 @@ input[type="file"] {
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 10px;
+}
+
+.footer {
+    background-color: #333; 
+    color: #e6e6e6; 
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #80deea;
 }
